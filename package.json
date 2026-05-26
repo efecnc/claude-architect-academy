@@ -1,0 +1,25 @@
+{
+  "name": "claude-architect-academy",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Interactive course for the Claude Certified Architect - Foundations exam",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "mermaid": "^11.15.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-markdown": "^9.0.1",
+    "react-router-dom": "^6.26.2",
+    "rehype-highlight": "^7.0.2",
+    "remark-gfm": "^4.0.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.3.1",
+    "vite": "^5.4.8"
+  }
+}
